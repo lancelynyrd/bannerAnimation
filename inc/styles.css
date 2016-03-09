@@ -1,0 +1,84 @@
+/** BASE */
+
+/** LAYOUT */
+
+/** MODULE */
+
+.banner {
+overflow: hidden;
+min-height: 400px;
+max-width: 600px;
+}
+
+.slider {
+	position: relative;
+	max-width: 600px;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.slider nav {
+	position: absolute;
+	z-index: 9999999;
+	margin-top: 25%;
+	left: 0;
+	right: 0;
+}
+
+.arrowleft {
+	position: absolute;
+	cursor: pointer;
+	border-radius: 50%;
+	left :3%;
+}
+
+.arrowright {
+	position: absolute;
+	cursor: pointer;
+	border-radius: 50%;
+	right: 3%;
+}
+
+.slider .imgUl li {
+	position: absolute;
+}
+.slider .imgUl li img {
+	width: 100%;
+}
+
+.slider .imgUl li p {
+	position: absolute; 
+	bottom: 15%; 
+	text-align: center;
+	width: 100%; 
+}
+
+.slider .dots {
+	position: absolute;
+	z-index: 9999999;
+	border: 1px solid red;
+	left: 0;
+	right: 0;
+}
+.slider .dots li {
+float: left;
+margin: 1px;
+}
+.slider .dots img {
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.slider .dots img:hover {
+	opacity: .5;
+}
+
+/*lider li, .slider li a{
+	color: white;
+}*/
+
+/** STATE */
